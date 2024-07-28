@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+#root {
+  max-width: 1280px;
+  margin: 0;
+  padding-top: 2rem;
+  /* text-align: center; */
+  /* width: 100vw; */
+  /* width: 150vw; */
+  display: flex;
+  --body-color: linear-gradient(90deg, hsl(104, 28%, 40%) 0%, hsl(58, 28%, 40%) 100%);
+  --container-color: linear-gradient(136deg, hsl(104, 28%, 35%) 0%, hsl(58, 28%, 35%) 100%);
+  /* background: linear-gradient(136deg,#b8b0b0,#111f46); */
+  /* background: var(--body-color); */
+  /* background: #054910ea; */
+  /* background: #04460ff7; */
+  /* background: #3e482A; */
+  /* background: #496235; */
+  /* background: linear-gradient(90deg,#12192C,#062a6e); */
+  /* background-color: "f9f9f9"; */
+}
+
+/* @media screen and (max-width: 500px){
+  #root{
+      max-width: 1280px;
+      margin: 0 auto;
+      padding: 2rem;
+      /* text-align: center; */
+      /* width: 100%;
+      display: flex; */
+      /* overflow: hidden; */
+  /* } */
+/* } */ 
+
+/*.logo {
+  height: 6em;
+  padding: 1.5em;
+  will-change: filter;
+  transition: filter 300ms;
+}
+.logo:hover {
+  filter: drop-shadow(0 0 2em #646cffaa);
+}
+.logo.react:hover {
+  filter: drop-shadow(0 0 2em #61dafbaa);
+}
+
+@keyframes logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  a:nth-of-type(2) .logo {
+    animation: logo-spin infinite 20s linear;
+  }
+}
+
+.card {
+  padding: 2em;
+}
+
+.read-the-docs {
+  color: #888;
+} */
+
+.chatbot{
+  width: 10vw;
+  position: fixed;
+  bottom: 3rem;
+  right: 1vw;
+}
+
+@media(max-width:600px){
+  #root{
+    display: flex;
+    flex-direction: column;
+  }
+  .chatbot{
+    width: 25vw;
+    position: fixed;
+    bottom: 3rem;
+    right: 1vw;
+  }
+}

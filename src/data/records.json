@@ -1,0 +1,30 @@
+[
+    {
+        "date":12,
+        "month":3,
+        "year":2024,
+        "type": "Food",
+        "title": "Fast Food",
+        "value": 500,
+        "InorOut": 0
+    },
+    {
+        "date":12,
+        "month":3,
+        "year":2024,
+        "type": "Shopping",
+        "title": "Tshirt",
+        "value": 1000,
+        "InorOut": 0
+    },
+    {
+        "date":12,
+        "month":3,
+        "year":2024,
+        "type": "Others",
+        "title": "Contri",
+        "value": 500,
+        "InorOut": 1
+    }
+
+]

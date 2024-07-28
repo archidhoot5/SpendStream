@@ -1,0 +1,61 @@
+@media(max-width:600px){
+    .section{
+        display: flex;
+        flex-direction: column;
+        width: 110%;
+        padding-right: 1rem;
+    }
+
+    .goals-section{
+        width: 75%;
+    }
+
+    .assets-section{
+        border: 0px solid white;
+        padding-top: 2rem;
+        width: 100%;
+    }
+
+    .assets{
+        width:100vw;
+    }
+
+    .section .monthly-data{
+        font-size: 5px;
+    }
+
+    .pie{
+        margin-top: 3rem;
+        width: 80vw;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .monthly-data{
+        margin-bottom: 3rem;
+    }
+    .month{
+        font-size: 12px;
+        /* width: 15vw; */
+        width: auto;
+        justify-content: space-between;
+    }
+
+    .inputFullBox{
+        width:100%;
+    }
+
+
+    
+}
+
+@media(min-width:600px){
+    .assets-section{
+        border-left: 2px solid gray;
+        padding: 2rem;
+    }
+    .goals-section{
+        width:55%;
+        margin: auto;
+    }
+}

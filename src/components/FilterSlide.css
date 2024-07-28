@@ -1,0 +1,94 @@
+.Expense:hover{
+    background-color: rgba(255,0,0,0.8);
+    color: white;
+    cursor: pointer;
+}
+
+.Income:hover{
+    background-color: green;
+    color: white;
+    cursor: pointer;
+}
+
+.Both:hover{
+    background-color: black;
+    color: white;
+    cursor: pointer;
+}
+
+.categoryLabels:focus{
+    border: 1px solid black;
+}
+
+.categoryLabels{
+    outline: none;
+    transition: all 0.3s;
+}
+
+.results-container{
+    position: absolute;
+    margin-top: 0.5rem;
+    width: 10rem;
+    padding: 0.5rem;
+    background-color: white;
+    border-radius: 10px;
+    overflow-y: auto;
+    max-height: 5rem;
+}
+
+.item{
+    padding: 0.5rem;
+    border: 1px solid gray;
+    border-radius: 10px;
+    transition: all 0.3s;
+    margin-top: 0.5rem;
+
+}
+
+.item:hover{
+    cursor: pointer;
+    border: 1px solid black;
+    background-color: rgb(200, 200, 200);
+
+}
+
+.label{
+    background-color: rgb(200, 200, 200);
+    /* width: 20%; */
+    text-align: center;
+    border-radius: 10px;
+    padding: 0.5rem;
+    margin: 0.25rem;
+    transition: all 0.2s;
+}
+.label:hover{
+    cursor: pointer;
+    background-color: black;
+    color: white;
+}
+.calendar{
+    /* background-color: black; */
+    color: black;
+}
+
+.clear:hover{
+    cursor: pointer;
+}
+
+.table{
+    /* width: 70rem; */
+}
+
+@media (max-width:600px) {
+    .table{
+        display: flex;
+        /* flex-wrap: wrap; */
+        flex-direction: column;
+        /* width: 50vw; */
+        padding-right: 10%;
+        margin-left: 0;
+    }
+    .filter{
+        margin-bottom: 5vh;
+    }
+}

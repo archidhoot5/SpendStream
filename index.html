@@ -1,0 +1,32 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <!-- <link rel="import" href="/src/components/sidebar/sidebar.html"> -->
+    <link rel="icon" type="image/x-icon" href="./src/assets/logo-dark.png" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>SpendStream - Your Budget Buddy</title>
+    <style>
+      iframe{
+        width: 25vw;
+      }
+      @media(max-width:600px){
+        body{
+          display: flex;
+          flex-direction: column;
+        }
+        iframe{
+          width:110vw;
+        }
+
+      }
+    </style>
+  </head>
+  <body>
+    <!-- <iframe src="/src/components/sidebar/sidebar.html" seamless></iframe> -->
+    <div id="root">
+    </div>
+    <!-- <div w3-include-html="/src/components/sidebar/sidebar.html"></div> -->
+    <script type="module" src="/src/main.jsx"></script>
+  </body>
+</html>

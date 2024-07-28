@@ -1,0 +1,32 @@
+[
+    {
+        "label": "Jan",
+        "value": 64854,
+        "cost": 32652
+    },
+    {
+        "label": "Feb",
+        "value": 54628,
+        "cost": 42393
+    },
+    {
+        "label": "Mar",
+        "value": 117238,
+        "cost": 50262
+    },
+    {
+        "label": "Apr",
+        "value": 82830,
+        "cost": 64731
+    },
+    {
+        "label": "May",
+        "value": 91208,
+        "cost": 41893
+    },
+    {
+        "label": "Jun",
+        "value": 103609,
+        "cost": 89093
+    }
+]

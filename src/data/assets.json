@@ -1,0 +1,18 @@
+[
+    {
+        "label":"Gold",
+        "value":500000
+    },
+    {
+        "label":"Warehouse",
+        "value":1500000
+    },
+    {
+        "label":"Stock",
+        "value":1000000
+    },
+    {
+        "label":"Land",
+        "value":3000000
+    }
+]

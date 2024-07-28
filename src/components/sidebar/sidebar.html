@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <!-- ===== CSS ===== -->
+        <link rel="stylesheet" href="assets/css/styles.css">
+        
+        <title>Sidebar Component</title>
+    </head>
+    <body id="body-pd">
+        <div class="l-navbar expander" id="navbar">
+            <nav class="nav">
+                <div>
+                    <div class="nav__brand">
+                        <!-- <ion-icon name="menu-outline" class="nav__toggle" id="nav-toggle"></ion-icon> -->
+                        <img src="/src/assets/menu.png" alt="" class="nav__toggle" id="nav-toggle">
+                        <a href="#" class="nav__logo">SpendStream</a>
+                    </div>
+                    <a href="#" class="nav_link active">
+                        <div class="user_img">
+                            <img src="Profile-Male-PNG.png" alt="user-profile" class="user_img">
+                        </div>
+                    </a>
+                    <div class="nav__list">
+                       
+                        <a href="#" class="nav__link active">
+                            <!-- <ion-icon name="home-outline" class="nav__icon"></ion-icon> -->
+                            <img src="/src/assets/dashboard.png" alt="" class="nav__icon">
+                            <span class="nav__name">Dashboard</span>
+                        </a>
+                        <a href="/transaction-records" class="nav__link">
+                            <!-- <ion-icon name="cash-outline" class="nav__icon"></ion-icon> -->
+                            <img src="/src/assets/banknotes.png" alt="" class="nav__icon">
+                            <span class="nav__name">Incomes and Expenses</span>
+                        </a>
+
+                        <div  class="nav__link collapse">
+                            <!-- <ion-icon name="home-outline" class="nav__icon"></ion-icon> -->
+                            <img src="/src/assets/asset.png" alt="" class="nav__icon">
+                            <span class="nav__name">Assets and Goals</span>
+                        </div>
+
+                        <!-- <a href="#" class="nav__link">
+                            <ion-icon name="stats-chart-outline" class="nav__icon"></ion-icon>
+                            <span class="nav__name">Analytics</span>
+                        </a>
+                        <a href="#" class="nav__link">
+                            <ion-icon name="settings-outline" class="nav__icon"></ion-icon>
+                            <span class="nav__name">Settings</span>
+                        </a> -->
+                        <a href="#" class="nav__link">
+                            <!-- <ion-icon name="log-out-outline" class="nav__icon"></ion-icon> -->
+                            <img src="/src//assets/logout.png" alt="" class="nav__icon">
+                            <span class="nav__name">Log Out</span>
+                        </a>
+                    </div>
+                </div>
+            </nav>
+        </div>
+
+        <!-- ===== IONICONS ===== -->
+        <script src="https://unpkg.com/ionicons@5.1.2/dist/ionicons.js"></script>
+        
+        <!-- ===== MAIN JS ===== -->
+        <script src="assets/js/sidebar.js"></script>
+    </body>
+</html>
